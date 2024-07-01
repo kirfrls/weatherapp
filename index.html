@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Story</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="main">
+        <h1>Weather</h1>
+        <div class="input-container">
+          <input type="text" id="location" placeholder="Enter location" />
+          <button class="search">Search</button>
+        </div>
+
+        <div class="curr-temp"><span class="temp"></span>ºC
+        <div class="city"></div></div>
+
+        <div class="sunny">
+            <img src="" alt="" id="wth-icon"/>
+            <span class="wth-desc"></span></div>
+
+        <div class="elements">
+          <div class="humidity gridd">
+           <span class="humidity-desc ic"></span>
+            <img src="icons/humidity.png" alt="" >
+        
+          </div>
+        
+          <div class="pressure gridd">
+            <span class="pressure-desc ic"></span>
+            <img src="icons/pressure.png" alt="" class="prs-icon">
+           
+          </div>
+          <div class="sea-level gridd">
+            <span class="sea-level-desc ic"></span>
+            <img src="icons/sea-level.png" alt="">
+         
+          </div>
+            <div class="feels-like gridd">
+            <span class="feels-like-desc"></span>
+            <span class="feels">Feels like</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="side-img">
+        <img src="weather-img/default.jpg" alt="">
+    </div>
+  </body>
+</html>
